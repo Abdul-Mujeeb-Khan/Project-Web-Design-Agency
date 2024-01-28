@@ -57,6 +57,7 @@ For Fonts [fonts.google.com](http://fonts.google.com) is used. Font style - Inte
 - Committing changes to the GitHub Repository is another crucial task so as to maintain development history of the project.
 - Next, is setting up Typography, the fonts to be used in this project. Decided to use the font style Inter which was imported from [fonts.google.com](http://fonts.google.com) through the DNS service, not importing locally.
 - Made the Website using Mobile First Approach. Then applying media queries for the desktop style into different component so as to make further changes easy.
+- Made the stylesheet such that the structure and skin of each component is implemented separately such as the badge’s structure and its skin i.e. color is defined separately.
 
 ## **HTML Structure:**
 
