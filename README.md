@@ -39,12 +39,16 @@ For Fonts [fonts.google.com](http://fonts.google.com) is used. Font style - Inte
 
 ## **Features:**
 
-[List out the key features and functionalities of the website.]
-
-1. Feature 1
-2. Feature 2
-3. Feature 3
-   ...
+1. Made using only HTML and CSS
+2. BEM (Block Element Modifier) implementation
+3. CSS Best practices used for efficiency such as separation of concerns
+4. DRY (Don’t Repeat Yourself) implementation
+5. Object-Oriented CSS used
+6. CSS Variables used for Custom Properties
+7. Transformations and transitions used for a Dynamic Frontend
+8. Responsive on different devices
+9. Minimalistic approach
+10. Modern Designa
 
 ## **Development Process:**
 
