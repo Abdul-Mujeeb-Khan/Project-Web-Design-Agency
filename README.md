@@ -48,11 +48,15 @@ For Fonts [fonts.google.com](http://fonts.google.com) is used. Font style - Inte
 7. Transformations and transitions used for a Dynamic Frontend
 8. Responsive on different devices
 9. Minimalistic approach
-10. Modern Designa
+10. Modern Design
 
 ## **Development Process:**
 
-[Describe the steps taken during the development process, including any challenges faced and solutions implemented.]
+- The Development process begins with inherent challenges, the first of which is identifying different styles and the components to be used, derived from the design mockup.
+- The next step was to decide the color palette, so as the design looks consistent.
+- Committing changes to the GitHub Repository is another crucial task so as to maintain development history of the project.
+- Next, is setting up Typography, the fonts to be used in this project. Decided to use the font style Inter which was imported from [fonts.google.com](http://fonts.google.com) through the DNS service, not importing locally.
+- Made the Website using Mobile First Approach. Then applying media queries for the desktop style into different component so as to make further changes easy.
 
 ## **HTML Structure:**
 
