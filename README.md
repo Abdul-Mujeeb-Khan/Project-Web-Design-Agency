@@ -42,13 +42,14 @@ For Fonts [fonts.google.com](http://fonts.google.com) is used. Font style - Inte
 1. Made using only HTML and CSS
 2. BEM (Block Element Modifier) implementation
 3. CSS Best practices used for efficiency such as separation of concerns
-4. DRY (Don’t Repeat Yourself) implementation
-5. Object-Oriented CSS used
-6. CSS Variables used for Custom Properties
-7. Transformations and transitions used for a Dynamic Frontend
-8. Responsive on different devices
-9. Minimalistic approach
-10. Modern Design
+4. Semantic HTML used for SEO
+5. DRY (Don’t Repeat Yourself) implementation
+6. Object-Oriented CSS used
+7. CSS Variables used for Custom Properties
+8. Transformations and transitions used for a Dynamic Frontend
+9. Image Sprites for Better performance and reduced HTTP requests
+10. Responsive on different devices
+11. Minimalistic approach
 
 ## **Development Process:**
 
@@ -58,6 +59,8 @@ For Fonts [fonts.google.com](http://fonts.google.com) is used. Font style - Inte
 - Next, is setting up Typography, the fonts to be used in this project. Decided to use the font style Inter which was imported from [fonts.google.com](http://fonts.google.com) through the DNS service, not importing locally.
 - Made the Website using Mobile First Approach. Then applying media queries for the desktop style into different component so as to make further changes easy.
 - Made the stylesheet such that the structure and skin of each component is implemented separately such as the badge’s structure and its skin i.e. color is defined separately.
+- Used Image sprites to reduce number of HTTP requests sent to server for better and enhanced performance.
+- Buttons were also designed using BEM and hovering and other states were implemented.
 
 ## **HTML Structure:**
 
