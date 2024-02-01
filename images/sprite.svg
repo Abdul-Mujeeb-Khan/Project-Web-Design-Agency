@@ -41,10 +41,10 @@
     <path d="M11.32,25.4571a1.7754,1.7754,0,0,1-1.5433.8964h0A1.7762,1.7762,0,0,1,8,24.5773V23.4227a1.7762,1.7762,0,0,1,1.7762-1.7762h0a1.7762,1.7762,0,0,1,1.7762,1.7762V24H8"></path>
     <path d="M36.4935,25.4571a1.7755,1.7755,0,0,1-1.5433.8964h0a1.7762,1.7762,0,0,1-1.7762-1.7762V23.4227A1.7762,1.7762,0,0,1,34.95,21.6465h0a1.7762,1.7762,0,0,1,1.7762,1.7762V24H33.174"></path>
     <path d="M38.8455,20.1812v5.2842a.8881.8881,0,0,0,.8881.8881H40"></path>
-    <line x1="37.913" y1="21.6465" x2="39.778" y2="21.6465"></line>
+    <line x1="37.913" y1="21.6465" x2="39.778" y2="21.6465"  fill="#2584ff"></line>
     <path d="M16.54,24.5773a1.7762,1.7762,0,0,1-1.7762,1.7762h0a1.7763,1.7763,0,0,1-1.7762-1.7762V23.4227a1.7763,1.7763,0,0,1,1.7762-1.7762h0A1.7762,1.7762,0,0,1,16.54,23.4227"></path>
-    <line x1="16.5403" y1="26.3535" x2="16.5403" y2="21.6465"></line>
-    <rect x="5.5" y="5.5" width="37" height="37" rx="2"></rect>
+    <line x1="16.5403" y1="26.3535" x2="16.5403" y2="21.6465" fill="#none"></line>
+    <rect x="5.5" y="5.5" width="37" height="37" rx="2"  fill="#none"></rect>
   </symbol>
   <symbol id="growth" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsCc="http://creativecommons.org/ns#" xmlnsDc="http://purl.org/dc/elements/1.1/" xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlnsSvg="http://www.w3.org/2000/svg" viewBox="0 0 6.3500002 6.3500002">
     <defs id="defs1970"></defs>
