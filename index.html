@@ -14,6 +14,62 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <header>
+      <nav class="nav collapsible">
+        <a href="#"><img src="images/logo.svg" alt="" /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="images/menu.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Pricing</a></li>
+          <li class="nav__item"><a href="#">Services</a></li>
+          <li class="nav__item"><a href="#">Domain</a></li>
+          <li class="nav__item"><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">Modern Web Designs and Deployment</h1>
+          <p class="hero__tagline">
+            Make your web presence with modern web designs and with a hassle
+            free deployment
+          </p>
+          <a href="#" class="btn btn--accent btn--stretched">Get Started</a>
+        </header>
+        <img class="hero__image" src="images/banner.svg" alt="Web Design" />
+      </div>
+    </section>
+    <section class="block container block-domain">
+      <header class="block__header">
+        <h2>Starting at just $49</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+          quisquam?
+        </p>
+        <div class="input-group">
+          <input
+            type="text"
+            class="input"
+            placeholder="Enter the service you want..."
+          />
+          <button class="btn btn--accent">
+            <svg class="icon icon--white">
+              <use xlink:href="images/sprite.svg#search"></use></svg
+            >Search
+          </button>
+        </div>
+      </header>
+      <ul class="list block-domain__prices">
+        <li><span class="badge badge--secondary">.com $9</span></li>
+        <li>.sg $10</li>
+        <li>.space $11</li>
+        <li>.info $14</li>
+        <li>.net $10</li>
+        <li>.org $12</li>
+      </ul>
+    </section>
     <script src="main.js"></script>
   </body>
 </html>

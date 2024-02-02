@@ -43,7 +43,7 @@ h3 {
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 5.7rem;
 }
 
 h2 {
@@ -205,7 +205,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   border: 0;
   border-radius: 40px;
   cursor: pointer;
@@ -273,6 +273,7 @@ a {
 @media screen and (min-width: 1024px) {
   .btn {
     font-size: 1.5rem;
+    padding: 2rem 1.5vw;
   }
 }
 
@@ -297,6 +298,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -757,13 +759,14 @@ a {
 
 .block-domain__prices {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
   justify-items: center;
   max-width: 700px;
   margin: 0 auto;
+  color: var(--color-headings);
 }
 
 @media screen and (min-width: 768px) {
