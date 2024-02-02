@@ -43,7 +43,7 @@ h3 {
 }
 
 h1 {
-  font-size: 5.7rem;
+  /* font-size: 5.7rem; */
 }
 
 h2 {
@@ -381,7 +381,7 @@ a {
 }
 
 .plan--popular {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .plan--popular .card__header {
@@ -398,11 +398,12 @@ a {
 }
 
 .plan:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .plan--popular:hover {
-  transform: scale(1.15);
+  transform: scale(1.07);
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1024px) {
@@ -638,7 +639,7 @@ a {
 
 .block--skewed-right {
   padding-bottom: calc(var(--padding-vertical) + 4rem);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%);
 }
 
 .block--skewed-left {
