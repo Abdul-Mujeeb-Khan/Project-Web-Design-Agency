@@ -543,6 +543,7 @@ a {
 
 /* Callouts */
 .callout {
+  position: relative;
   padding: 4rem;
   border-radius: 5px;
 }
@@ -565,6 +566,13 @@ a {
 
 .callout__content {
   text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .callout {
+    width: 50%;
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
