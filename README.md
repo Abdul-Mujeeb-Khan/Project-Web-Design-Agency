@@ -33,6 +33,8 @@ No third-party libraries as in frameworks, were used in building this project.
 
 For Fonts [fonts.google.com](http://fonts.google.com) is used. Font style - Inter has been used, which is imported through DNS of the website, not imported locally.
 
+JavaScript dependency AOS was used for Animations.
+
 ## **Design Mockups:**
 
 [Include screenshots or links to design mockups for reference.]
@@ -61,6 +63,10 @@ For Fonts [fonts.google.com](http://fonts.google.com) is used. Font style - Inte
 - Made the stylesheet such that the structure and skin of each component is implemented separately such as the badge’s structure and its skin i.e. color is defined separately.
 - Used Image sprites to reduce number of HTTP requests sent to server for better and enhanced performance.
 - Buttons were also designed using BEM and hovering and other states were implemented.
+- One of the problems faced was making the website responsive and resolved it using grid and flex-boxes.
+- Used Block level structure to make the website.
+- Used HTML and CSS validator for optimization.
+- Added Meta tags a part of SEO.
 
 ## **HTML Structure:**
 
@@ -112,12 +118,12 @@ cssCopy code
 
 ## **Testing:**
 
-[Detail the testing process, including any browsers/devices used for testing and any issues encountered.]
+For testing the scalability and efficiency of website, used Chrome Dev Tools and networks.
 
 ## **Deployment:**
 
-[Explain how the project was deployed, including hosting platform and any additional steps taken.]
+Deployed using Github pages.
 
 ## **Conclusion:**
 
-[Summarize the project, lessons learned, and potential future improvements.]
+This project gave me an insight into the complete process of building and deploying production level website.
